@@ -23,6 +23,9 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
+var models = require('./api/models');
+app.set('models', models);
+
 var api = require('./api');
 app.use(api);
 

@@ -26,7 +26,7 @@ if ('development' == app.get('env')) {
 // Routes to user
 var user = require('./routes/user');
 
-app.post('/a/users', user.add);
+app.post('/api/users/new', user.add);
 app.post('/a/users/:id',  user.set);
 app.get('/a/users', user.get);
 app.get('/a/user', user.getOne);

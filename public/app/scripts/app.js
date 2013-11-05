@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('appApp', [])
+angular.module('appApp', ['appApp.services.user'])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
