@@ -1,5 +1,5 @@
 {
-  "name": "application-name",
+  "name": "capeta-online",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,6 +7,8 @@
   },
   "dependencies": {
     "express": "3.4.0",
-    "jade": "*"
+    "mysql": "2.0.0-alpha8",
+    "sequelize": "2.0.0-alpha3",
+    "underscore": "1.5.1",
   }
 }
