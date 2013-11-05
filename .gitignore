@@ -1,0 +1,8 @@
+public/app/bower_components
+public/app/bower_components/
+public/app/bower_components/*
+public/app/bower_components/*/
+node_modules
+*.swp
+*.swo
+*.log
