@@ -9,6 +9,6 @@
     "express": "3.4.0",
     "mysql": "2.0.0-alpha8",
     "sequelize": "2.0.0-alpha3",
-    "underscore": "1.5.1",
+    "underscore": "1.5.1"
   }
 }

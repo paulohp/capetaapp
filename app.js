@@ -7,7 +7,7 @@ var express = require('express');
 var http = require('http');
 var path = require('path');
 
-var app = express();
+app = express();
 
 // all environments
 app.set('port', process.env.PORT || 3000);
@@ -22,6 +22,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
+
+var api = require('./api');
+app.use(api);
 
 app.all('/', function (req, res)
 {	
