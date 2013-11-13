@@ -5,7 +5,6 @@ exports.add = function(newuser, callback){
 	models.User.create({
 		name: newuser.name,
 		city : newuser.city
-
 	}).success(function(user) { 
 		callback(user);	
 	}).error(function (err){
